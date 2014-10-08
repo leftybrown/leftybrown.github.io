@@ -21,7 +21,7 @@ header {
 main {
     display: flex;
     flex-direction: row;
-    flex: 1;
+    flex: 2;
 }
 
 article {
@@ -32,7 +32,7 @@ article {
 aside {
     text-align: center;
     background-color: blue;
-    flex: 2;
+    flex: 1;
 }
 
 .promo {
@@ -65,16 +65,16 @@ footer {
 @media (max-width: 480px) {   
     body {
         background-color: yellow;
+        flex-direction: column-reverse;
     }
-    article {
-        width: 100%;
+    
+    main {
+        flex-direction: column;
     }
-    aside {
-        width: 100%;
+    
+    
+    .promo ul {
+        flex-direction: column;
     }
-    .promo ul li {
-        width: 100%;
-    }
-    footer {
-        width: 100%;
-    }
+    
+ 
