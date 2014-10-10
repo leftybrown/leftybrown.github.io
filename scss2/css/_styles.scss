@@ -1,0 +1,50 @@
+$red: red;
+$blue: blue;
+$white: white;
+$dkgrey: grey;
+$ltgrey: #aeaeae;
+$font-weight: 100;
+$h1: 3;
+$size: 20px;
+
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #aeaeae;
+    height: 100%;
+}
+
+header {
+    background-color: $blue;
+    color: $white;
+    font-size: 50px;
+    
+}
+
+main {
+    article {
+        background-color: $red;
+        padding: 10px;
+        p {
+            font-size: 20px;
+        }
+    }
+    aside {
+        background-color: $white;
+    }
+    li {
+        list-style: none;
+        color: $blue;
+    }
+    
+}
+
+footer {
+    background-color: black;
+    color: $white;
+}
+    
+
